@@ -4,6 +4,25 @@
     <title>
         html day 1
     </title>
+    <style>
+        th {
+            background: lightgrey
+        }
+
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse
+        }
+
+        tr:nth-child(even) td:nth-child(odd),
+        tr:nth-child(odd) td:nth-child(even) {
+            background-color: black;
+            color: white
+        }
+    </style>
 </head>
 
 <body style="padding:30px">
@@ -15,7 +34,51 @@
             <a href="bonus.html">Bonus</a>
         </nav>
     </header>
-    <h1>I am a contact us page...</h1>
+    <main>
+        <h1>I am a contact us page...</h1>
+        <table>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </main>
     <footer style="background-color:aliceblue">
         &copy; copy write message
     </footer>
